@@ -31,7 +31,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Gallery preview section
     'preview.label': 'Utvalgte verk',
     'preview.title': 'Frøenes skjulte geometri',
-    'preview.body': 'Hvert frø er et univers. Gjennom makrolinsen åpenbarer naturen en presisjon og skjønnhet som er usynlig for det blotte øye.',
+    'preview.body': 'Hvert frø er et univers. Gjennom makrolinsen avdekker jeg en presisjon og skjønnhet som er usynlig for det blotte øye — og jeg kan ikke slutte å lete.',
     'preview.cta': 'Se hele galleriet',
     'preview.img1.title': 'Hanekam',
     'preview.img1.subtitle': 'Celosia cristata',
@@ -69,13 +69,13 @@ const translations: Record<Language, Record<string, string>> = {
     'gallery.img8.subtitle': 'Silene dioica',
 
     // About page
-    'about.label': 'Om fotografen',
+    'about.label': 'Om meg',
     'about.title': 'Ove Hetland',
     'about.subtitle': 'Makrofotograf',
-    'about.p1': 'Det begynte med et kamera og en nysgjerrighet som ikke lot seg stanse. Syv år gammel oppdaget Ove Hetland at verden sett gjennom et linse var en annen verden — mer intens, mer presis, mer sann.',
-    'about.p2': 'Over femti år senere er den nysgjerrigheten intakt. Det som har endret seg er dybden. Hetland har smalnet sitt fokus til det som er nesten usynlig for det blotte øye: frøenes indre arkitektur. Strukturer som naturen har perfeksjonert over millioner av år.',
-    'about.p3': 'Hvert bilde er resultatet av timer med forberedelse, presisjonsjustering og tålmodighet. Ingenting overlates til tilfeldighetene. Lyset, vinkelen, dybdeskarphet — alt er en bevisst avgjørelse. Det er ikke bare fotografi. Det er botanisk dokumentasjon som kunst.',
-    'about.p4': 'Hetlands arbeider er kjøpt av private samlere i Norge og internasjonalt. Hvert trykk er signert og nummerert.',
+    'about.p1': 'Det begynte med et kamera og en nysgjerrighet som ikke lot seg stanse. Syv år gammel oppdaget jeg at verden sett gjennom et linse var en annen verden — mer intens, mer presis, mer sann.',
+    'about.p2': 'Over femti år senere er den nysgjerrigheten intakt. Det som har endret seg er dybden. Jeg har smalnet fokuset mitt til det som er nesten usynlig for det blotte øye: frøenes indre arkitektur. Strukturer som naturen har perfeksjonert over millioner av år.',
+    'about.p3': 'Hvert bilde er resultatet av timer med forberedelse, presisjonsjustering og tålmodighet. Ingenting overlater jeg til tilfeldighetene. Lyset, vinkelen, dybdeskarpheten — alt er en bevisst avgjørelse. For meg er dette ikke bare fotografi. Det er botanisk dokumentasjon som kunst.',
+    'about.p4': 'Bildene mine er kjøpt av private samlere i Norge og internasjonalt. Hvert trykk er signert og nummerert av meg.',
     'about.stat1.num': '50+',
     'about.stat1.label': 'Års erfaring',
     'about.stat2.num': '7',
@@ -87,7 +87,7 @@ const translations: Record<Language, Record<string, string>> = {
     'contact.label': 'Kontakt',
     'contact.title': 'Ta kontakt',
     'contact.subtitle': 'For kjøp eller samarbeid',
-    'contact.body': 'Hvert trykk produseres på bestilling. Ta kontakt for å diskutere tilgjengelighet, størrelser og priser. Ingen henvendelse er for liten.',
+    'contact.body': 'Jeg produserer hvert trykk på bestilling. Ta gjerne kontakt for å snakke om tilgjengelighet, størrelser og priser. Ingen henvendelse er for liten — jeg svarer alltid.',
     'contact.name': 'Navn',
     'contact.email': 'E-post',
     'contact.message': 'Melding',
@@ -98,7 +98,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Footer
     'footer.rights': 'Alle rettigheter forbeholdt',
-    'footer.prints': 'Signerte trykk tilgjengelig på forespørsel',
+    'footer.prints': 'Jeg lager signerte trykk på bestilling',
   },
   en: {
     // Navigation
@@ -117,7 +117,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Gallery preview section
     'preview.label': 'Selected works',
     'preview.title': 'The hidden geometry of seeds',
-    'preview.body': 'Every seed is a universe. Through the macro lens, nature reveals a precision and beauty invisible to the naked eye.',
+    'preview.body': 'Every seed is a universe. Through the macro lens, I uncover a precision and beauty invisible to the naked eye — and I cannot stop looking.',
     'preview.cta': 'View full gallery',
     'preview.img1.title': 'Cockscomb',
     'preview.img1.subtitle': 'Celosia cristata',
@@ -155,17 +155,17 @@ const translations: Record<Language, Record<string, string>> = {
     'gallery.img8.subtitle': 'Silene dioica',
 
     // About page
-    'about.label': 'About the photographer',
+    'about.label': 'About me',
     'about.title': 'Ove Hetland',
     'about.subtitle': 'Macro Photographer',
-    'about.p1': 'It began with a camera and a curiosity that refused to be contained. At seven years old, Ove Hetland discovered that the world seen through a lens was a different world — more intense, more precise, more true.',
-    'about.p2': 'More than fifty years later, that curiosity remains intact. What has changed is the depth. Hetland has narrowed his focus to what is nearly invisible to the naked eye: the inner architecture of seeds. Structures that nature has perfected over millions of years.',
-    'about.p3': 'Each image is the result of hours of preparation, precision adjustment, and patience. Nothing is left to chance. The light, the angle, the depth of field — every element is a deliberate decision. This is not merely photography. It is botanical documentation as art.',
-    'about.p4': "Hetland's works have been acquired by private collectors in Norway and internationally. Each print is signed and numbered.",
+    'about.p1': 'It began with a camera and a curiosity that refused to be contained. At seven years old, I discovered that the world seen through a lens was a different world — more intense, more precise, more true.',
+    'about.p2': 'More than fifty years later, that curiosity remains intact. What has changed is the depth. I have narrowed my focus to what is nearly invisible to the naked eye: the inner architecture of seeds. Structures that nature has perfected over millions of years.',
+    'about.p3': 'Each image is the result of hours of preparation, precision adjustment, and patience. I leave nothing to chance. The light, the angle, the depth of field — every element is a deliberate decision. For me, this is not merely photography. It is botanical documentation as art.',
+    'about.p4': 'My works have been acquired by private collectors in Norway and internationally. Each print is personally signed and numbered by me.',
     'about.stat1.num': '50+',
     'about.stat1.label': 'Years of experience',
     'about.stat2.num': '7',
-    'about.stat2.label': 'Age when he began',
+    'about.stat2.label': 'Age when I began',
     'about.stat3.num': '∞',
     'about.stat3.label': 'Details per image',
 
@@ -173,7 +173,7 @@ const translations: Record<Language, Record<string, string>> = {
     'contact.label': 'Contact',
     'contact.title': 'Get in touch',
     'contact.subtitle': 'For purchases or collaboration',
-    'contact.body': 'Each print is produced to order. Get in touch to discuss availability, sizes, and pricing. No enquiry is too small.',
+    'contact.body': 'I produce every print to order. Feel free to reach out to discuss availability, sizes, and pricing. No enquiry is too small — I always respond.',
     'contact.name': 'Name',
     'contact.email': 'Email',
     'contact.message': 'Message',
@@ -184,7 +184,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Footer
     'footer.rights': 'All rights reserved',
-    'footer.prints': 'Signed prints available on request',
+    'footer.prints': 'I make signed prints to order',
   },
 };
 
