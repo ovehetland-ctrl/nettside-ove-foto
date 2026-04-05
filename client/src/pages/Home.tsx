@@ -19,18 +19,18 @@ const HERO_IMAGE = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/mVQ
 const PREVIEW_IMAGES = [
   {
     src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1774984998/Hanekam_m%C3%A5lestokk-3_bse8jl.jpg',
-    titleKey: 'gallery.img2.title',
-    subtitleKey: 'gallery.img2.subtitle',
+    titleKey: 'preview.img1.title',
+    subtitleKey: 'preview.img1.subtitle',
   },
   {
     src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775218878/fagerklokke_1_xdhhnk.jpg',
-    titleKey: 'gallery.img3.title',
-    subtitleKey: 'gallery.img3.subtitle',
+    titleKey: 'preview.img2.title',
+    subtitleKey: 'preview.img2.subtitle',
   },
   {
     src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775231930/2024-12-07-10.19.22_ZS_PMax_UDR-Edit3_dfekle.jpg',
-    titleKey: 'gallery.img4.title',
-    subtitleKey: 'gallery.img4.subtitle',
+    titleKey: 'preview.img3.title',
+    subtitleKey: 'preview.img3.subtitle',
   },
 ];
 

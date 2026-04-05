@@ -33,6 +33,12 @@ const translations: Record<Language, Record<string, string>> = {
     'preview.title': 'Frøenes skjulte geometri',
     'preview.body': 'Hvert frø er et univers. Gjennom makrolinsen åpenbarer naturen en presisjon og skjønnhet som er usynlig for det blotte øye.',
     'preview.cta': 'Se hele galleriet',
+    'preview.img1.title': 'Hanekam',
+    'preview.img1.subtitle': 'Celosia cristata',
+    'preview.img2.title': 'Fagerklokke',
+    'preview.img2.subtitle': 'Aquilegia vulgaris',
+    'preview.img3.title': 'Markjordbær',
+    'preview.img3.subtitle': 'Fragaria vesca',
 
     // Gallery page
     'gallery.label': 'Galleri',
@@ -109,6 +115,12 @@ const translations: Record<Language, Record<string, string>> = {
     'preview.title': 'The hidden geometry of seeds',
     'preview.body': 'Every seed is a universe. Through the macro lens, nature reveals a precision and beauty invisible to the naked eye.',
     'preview.cta': 'View full gallery',
+    'preview.img1.title': 'Cockscomb',
+    'preview.img1.subtitle': 'Celosia cristata',
+    'preview.img2.title': 'Columbine',
+    'preview.img2.subtitle': 'Aquilegia vulgaris',
+    'preview.img3.title': 'Wild Strawberry',
+    'preview.img3.subtitle': 'Fragaria vesca',
 
     // Gallery page
     'gallery.label': 'Gallery',
