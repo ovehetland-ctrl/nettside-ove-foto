@@ -65,6 +65,8 @@ const translations: Record<Language, Record<string, string>> = {
     'gallery.img6.subtitle': 'Veronica chamaedrys',
     'gallery.img7.title': 'Løvetann',
     'gallery.img7.subtitle': 'Taraxacum officinale',
+    'gallery.img8.title': 'Rød jonsokblom',
+    'gallery.img8.subtitle': 'Silene dioica',
 
     // About page
     'about.label': 'Om fotografen',
@@ -149,6 +151,8 @@ const translations: Record<Language, Record<string, string>> = {
     'gallery.img6.subtitle': 'Veronica chamaedrys',
     'gallery.img7.title': 'Dandelion',
     'gallery.img7.subtitle': 'Taraxacum officinale',
+    'gallery.img8.title': 'Red Campion',
+    'gallery.img8.subtitle': 'Silene dioica',
 
     // About page
     'about.label': 'About the photographer',

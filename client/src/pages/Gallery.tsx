@@ -43,6 +43,11 @@ const GALLERY_IMAGES = [
     titleKey: 'gallery.img7.title',
     subtitleKey: 'gallery.img7.subtitle',
   },
+  {
+    src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775415637/best_av_best_bakgrunn9_i5z4ec.jpg',
+    titleKey: 'gallery.img8.title',
+    subtitleKey: 'gallery.img8.subtitle',
+  },
 ];
 
 export default function Gallery() {
