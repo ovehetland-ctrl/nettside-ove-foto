@@ -8,7 +8,6 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { useFadeIn } from '@/hooks/useFadeIn';
 
 const PORTRAIT_IMAGE = 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775333282/2342724_etfprm.webp';
-const SEED_DETAIL_IMAGE = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/mVQJLeLPN6ijFsQp9eE8pZ/gallery-seed-3-ibKEHBvvPgjitbFevpKdtX.webp';
 
 export default function About() {
   const { t } = useLanguage();
@@ -81,27 +80,32 @@ export default function About() {
             </div>
           </div>
 
-          {/* Right: Images */}
-          <div ref={imageRef} className="fade-in lg:col-span-5" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-            <div className="img-zoom" style={{ aspectRatio: '3/4', overflow: 'hidden' }}>
+          {/* Right: Portrait */}
+          <div ref={imageRef} className="fade-in lg:col-span-5">
+            <div
+              style={{
+                width: '100%',
+                background: '#0d0d0b',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                overflow: 'hidden',
+              }}
+            >
               <img
                 src={PORTRAIT_IMAGE}
                 alt="Ove Hetland — Makrofotograf"
-                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }}
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  maxHeight: '80vh',
+                  objectFit: 'contain',
+                  objectPosition: 'center',
+                  display: 'block',
+                }}
                 loading="lazy"
               />
             </div>
-            <div className="img-zoom" style={{ aspectRatio: '16/9', overflow: 'hidden' }}>
-              <img
-                src={SEED_DETAIL_IMAGE}
-                alt="Valmuekapsel — makrofotografi"
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                loading="lazy"
-              />
-            </div>
-            <p style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 300, fontSize: '0.7rem', color: '#8c8880', lineHeight: 1.6, fontStyle: 'italic' }}>
-              Papaver somniferum — valmuekapsel, makrofotografi
-            </p>
           </div>
         </div>
       </div>
