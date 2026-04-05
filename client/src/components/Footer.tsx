@@ -36,20 +36,40 @@ export default function Footer() {
           </div>
         </Link>
 
-        {/* Center: Tagline */}
-        <p
-          className="text-center"
-          style={{
-            fontFamily: "'Montserrat', sans-serif",
-            fontWeight: 300,
-            fontSize: '0.65rem',
-            letterSpacing: '0.15em',
-            color: '#8c8880',
-            textTransform: 'uppercase',
-          }}
-        >
-          {t('footer.prints')}
-        </p>
+        {/* Center: Contact links */}
+        <div className="flex flex-col items-center gap-2">
+          <p
+            style={{
+              fontFamily: "'Montserrat', sans-serif",
+              fontWeight: 300,
+              fontSize: '0.65rem',
+              letterSpacing: '0.15em',
+              color: '#8c8880',
+              textTransform: 'uppercase',
+            }}
+          >
+            {t('footer.prints')}
+          </p>
+          <div className="flex gap-5 items-center">
+            <a
+              href="mailto:ove.hetland@gmail.com"
+              style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 300, fontSize: '0.65rem', letterSpacing: '0.08em', color: '#8c8880', textDecoration: 'none', transition: 'color 0.3s ease' }}
+              onMouseEnter={(e) => ((e.target as HTMLElement).style.color = '#c9b99a')}
+              onMouseLeave={(e) => ((e.target as HTMLElement).style.color = '#8c8880')}
+            >
+              ove.hetland@gmail.com
+            </a>
+            <span style={{ color: '#3a3a38', fontSize: '0.5rem' }}>·</span>
+            <a
+              href="tel:+4740622912"
+              style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 300, fontSize: '0.65rem', letterSpacing: '0.08em', color: '#8c8880', textDecoration: 'none', transition: 'color 0.3s ease' }}
+              onMouseEnter={(e) => ((e.target as HTMLElement).style.color = '#c9b99a')}
+              onMouseLeave={(e) => ((e.target as HTMLElement).style.color = '#8c8880')}
+            >
+              +47 406 22 912
+            </a>
+          </div>
+        </div>
 
         {/* Right: Copyright */}
         <p

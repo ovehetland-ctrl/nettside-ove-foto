@@ -73,8 +73,8 @@ export default function Contact() {
               {t('contact.or')}
             </p>
             <a
-              href="mailto:post@ovehetland.no"
-              style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 300, fontSize: '1.15rem', color: '#c9b99a', textDecoration: 'none', borderBottom: '1px solid rgba(201, 185, 154, 0.25)', paddingBottom: '2px', transition: 'border-color 0.3s ease, color 0.3s ease', letterSpacing: '0.02em' }}
+              href="mailto:ove.hetland@gmail.com"
+              style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 300, fontSize: '1.15rem', color: '#c9b99a', textDecoration: 'none', borderBottom: '1px solid rgba(201, 185, 154, 0.25)', paddingBottom: '2px', transition: 'border-color 0.3s ease, color 0.3s ease', letterSpacing: '0.02em', display: 'block', marginBottom: '1.25rem' }}
               onMouseEnter={(e) => {
                 (e.target as HTMLElement).style.borderColor = 'rgba(201, 185, 154, 0.7)';
                 (e.target as HTMLElement).style.color = '#f0ece4';
@@ -84,7 +84,21 @@ export default function Contact() {
                 (e.target as HTMLElement).style.color = '#c9b99a';
               }}
             >
-              post@ovehetland.no
+              ove.hetland@gmail.com
+            </a>
+            <a
+              href="tel:+4740622912"
+              style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 300, fontSize: '1.15rem', color: '#c9b99a', textDecoration: 'none', borderBottom: '1px solid rgba(201, 185, 154, 0.25)', paddingBottom: '2px', transition: 'border-color 0.3s ease, color 0.3s ease', letterSpacing: '0.02em', display: 'block' }}
+              onMouseEnter={(e) => {
+                (e.target as HTMLElement).style.borderColor = 'rgba(201, 185, 154, 0.7)';
+                (e.target as HTMLElement).style.color = '#f0ece4';
+              }}
+              onMouseLeave={(e) => {
+                (e.target as HTMLElement).style.borderColor = 'rgba(201, 185, 154, 0.25)';
+                (e.target as HTMLElement).style.color = '#c9b99a';
+              }}
+            >
+              +47 406 22 912
             </a>
           </div>
         </div>
