@@ -59,10 +59,12 @@ const translations: Record<Language, Record<string, string>> = {
     'gallery.img3.subtitle': 'Aquilegia vulgaris',
     'gallery.img4.title': 'Prestekrage',
     'gallery.img4.subtitle': 'Leucanthemum vulgare',
-    'gallery.img5.title': 'Frøkapsel II',
-    'gallery.img5.subtitle': 'Nigella damascena',
-    'gallery.img6.title': 'Frøhode',
-    'gallery.img6.subtitle': 'Scabiosa columbaria',
+    'gallery.img5.title': 'Vanlig hønsegras',
+    'gallery.img5.subtitle': 'Polygonum aviculare',
+    'gallery.img6.title': 'Veronika',
+    'gallery.img6.subtitle': 'Veronica chamaedrys',
+    'gallery.img7.title': 'Løvetann',
+    'gallery.img7.subtitle': 'Taraxacum officinale',
 
     // About page
     'about.label': 'Om fotografen',
@@ -141,10 +143,12 @@ const translations: Record<Language, Record<string, string>> = {
     'gallery.img3.subtitle': 'Aquilegia vulgaris',
     'gallery.img4.title': 'Ox-eye Daisy',
     'gallery.img4.subtitle': 'Leucanthemum vulgare',
-    'gallery.img5.title': 'Seed Pod II',
-    'gallery.img5.subtitle': 'Nigella damascena',
-    'gallery.img6.title': 'Seed Head',
-    'gallery.img6.subtitle': 'Scabiosa columbaria',
+    'gallery.img5.title': 'Common Knotgrass',
+    'gallery.img5.subtitle': 'Polygonum aviculare',
+    'gallery.img6.title': 'Germander Speedwell',
+    'gallery.img6.subtitle': 'Veronica chamaedrys',
+    'gallery.img7.title': 'Dandelion',
+    'gallery.img7.subtitle': 'Taraxacum officinale',
 
     // About page
     'about.label': 'About the photographer',

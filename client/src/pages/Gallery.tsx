@@ -28,6 +28,21 @@ const GALLERY_IMAGES = [
     titleKey: 'gallery.img4.title',
     subtitleKey: 'gallery.img4.subtitle',
   },
+  {
+    src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775414981/best_fgyyvf.jpg',
+    titleKey: 'gallery.img5.title',
+    subtitleKey: 'gallery.img5.subtitle',
+  },
+  {
+    src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775414981/2025-01-14-10.24.16_ZS_PMax_UDR-Edit_ffvf8y.jpg',
+    titleKey: 'gallery.img6.title',
+    subtitleKey: 'gallery.img6.subtitle',
+  },
+  {
+    src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775414981/2025-05-23-12.12.14_ZS_PMax_UDR-Edit_evwfbb.jpg',
+    titleKey: 'gallery.img7.title',
+    subtitleKey: 'gallery.img7.subtitle',
+  },
 ];
 
 export default function Gallery() {
