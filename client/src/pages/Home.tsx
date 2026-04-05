@@ -296,16 +296,34 @@ export default function Home() {
             <Link
               href="/gallery"
               key={i}
-              style={{ textDecoration: 'none', display: 'flex', flexDirection: 'column', gap: 0, height: '100%' }}
+              style={{ textDecoration: 'none', display: 'flex', flexDirection: 'column', gap: 0 }}
             >
               <div
-                className="img-zoom"
-                style={{ aspectRatio: '1/1', overflow: 'hidden', cursor: 'pointer', width: '100%' }}
+                style={{
+                  width: '100%',
+                  aspectRatio: '1/1',
+                  background: '#0d0d0b',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  overflow: 'hidden',
+                  cursor: 'pointer',
+                }}
               >
                 <img
                   src={img.src}
                   alt={t(img.titleKey)}
-                  style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center', background: '#0d0d0b' }}
+                  style={{
+                    maxWidth: '100%',
+                    maxHeight: '100%',
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'contain',
+                    objectPosition: 'center',
+                    transition: 'transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+                  }}
+                  onMouseEnter={(e) => { (e.currentTarget as HTMLImageElement).style.transform = 'scale(1.03)'; }}
+                  onMouseLeave={(e) => { (e.currentTarget as HTMLImageElement).style.transform = 'scale(1)'; }}
                   loading="lazy"
                 />
               </div>
