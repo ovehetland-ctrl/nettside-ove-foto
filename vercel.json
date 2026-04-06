@@ -1,8 +1,7 @@
 {
-  "buildCommand": "cd client && pnpm install && pnpm run build",
-  "outputDirectory": "client/dist",
-  "installCommand": "cd client && pnpm install",
-  "framework": null,
+  "buildCommand": "pnpm install && pnpm vite build",
+  "outputDirectory": "dist/public",
+  "installCommand": "pnpm install",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
