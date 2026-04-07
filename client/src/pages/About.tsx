@@ -106,7 +106,7 @@ export default function About() {
                 loading="lazy"
               />
             </div>
-            <p style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 300, fontSize: '0.65rem', color: '#3a3a38', letterSpacing: '0.08em', fontStyle: 'italic', marginTop: '0.75rem' }}>
+            <p style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 400, fontSize: '0.78rem', color: '#b0aca4', letterSpacing: '0.10em', fontStyle: 'italic', marginTop: '0.75rem' }}>
               Foto: Anne Friederike Borchert
             </p>
           </div>
