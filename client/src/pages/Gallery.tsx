@@ -14,7 +14,7 @@ const GALLERY_IMAGES = [
     subtitleKey: 'gallery.img1.subtitle',
   },
   {
-    src: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/k9G3EiRAAtsP9HKo2g57xn/vassarve-new_f5e4ad4a.webp',
+    src: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/k9G3EiRAAtsP9HKo2g57xn/vassarve_e2e8e3dc.webp',
     titleKey: 'gallery.img2.title',
     subtitleKey: 'gallery.img2.subtitle',
   },
