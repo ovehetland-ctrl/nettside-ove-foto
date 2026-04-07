@@ -60,7 +60,7 @@ export default function Home() {
         style={{
           position: 'relative',
           width: '100vw',
-          height: '75svh',
+          height: '60svh',
           overflow: 'hidden',
         }}
       >
@@ -77,7 +77,7 @@ export default function Home() {
             height: '100%',
             objectFit: 'cover',
             objectPosition: 'center',
-            transform: 'scale(0.85)',
+            transform: 'scale(0.72)',
             transformOrigin: 'center center',
             willChange: 'transform',
           }}
