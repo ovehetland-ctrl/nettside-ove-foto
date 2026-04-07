@@ -48,6 +48,11 @@ const GALLERY_IMAGES = [
     titleKey: 'gallery.img8.title',
     subtitleKey: 'gallery.img8.subtitle',
   },
+  {
+    src: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/k9G3EiRAAtsP9HKo2g57xn/rughavre_6d1e0076.webp',
+    titleKey: 'gallery.img9.title',
+    subtitleKey: 'gallery.img9.subtitle',
+  },
 ];
 
 export default function Gallery() {
