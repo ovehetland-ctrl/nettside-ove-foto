@@ -91,10 +91,10 @@ export default function Home() {
             background: `
               linear-gradient(
                 to bottom,
-                rgba(8,8,7,0.25) 0%,
-                rgba(8,8,7,0.05) 35%,
-                rgba(8,8,7,0.35) 70%,
-                rgba(8,8,7,0.90) 100%
+                rgba(8,8,7,0.10) 0%,
+                rgba(8,8,7,0.00) 35%,
+                rgba(8,8,7,0.20) 70%,
+                rgba(8,8,7,0.75) 100%
               )
             `,
           }}
