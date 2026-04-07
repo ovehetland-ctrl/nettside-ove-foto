@@ -14,7 +14,7 @@ import { Link } from 'wouter';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useFadeIn } from '@/hooks/useFadeIn';
 
-const HERO_IMAGE = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/mVQJLeLPN6ijFsQp9eE8pZ/6_04e5a907.webp';
+const HERO_IMAGE = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/k9G3EiRAAtsP9HKo2g57xn/hero-forside_b29d3123.webp';
 
 const PREVIEW_IMAGES = [
   {
