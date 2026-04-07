@@ -14,7 +14,7 @@ const GALLERY_IMAGES = [
     subtitleKey: 'gallery.img1.subtitle',
   },
   {
-    src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775231930/2023-11-07-11.04.38_ZS_PMax_UDR_zerene-Edit_siste33_zdsbhr.jpg',
+    src: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/k9G3EiRAAtsP9HKo2g57xn/vassarve-new_f5e4ad4a.webp',
     titleKey: 'gallery.img2.title',
     subtitleKey: 'gallery.img2.subtitle',
   },
