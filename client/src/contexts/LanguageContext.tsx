@@ -70,14 +70,14 @@ const translations: Record<Language, Record<string, string>> = {
     'gallery.img9.title': 'Rughavre',
     'gallery.img9.subtitle': 'Avena strigosa',
     'gallery.img1.scale': 'Frøstørrelse: ca. 2–3 mm',
-    'gallery.img2.scale': 'Frøstørrelse: ca. 1 mm',
+    'gallery.img2.scale': 'Frøstørrelse: ca. 1,5 mm',
     'gallery.img3.scale': 'Frøstørrelse: ca. 2–3 mm',
     'gallery.img4.scale': 'Frøstørrelse: ca. 2–3 mm',
     'gallery.img5.scale': 'Frøstørrelse: ca. 2 mm',
     'gallery.img6.scale': 'Frøstørrelse: ca. 1–2 mm',
     'gallery.img7.scale': 'Frøstørrelse: ca. 3–4 mm',
     'gallery.img8.scale': 'Frøstørrelse: ca. 1–2 mm',
-    'gallery.img9.scale': 'Frølengde: ca. 8–10 mm',
+    'gallery.img9.scale': 'Frølengde: ca. 9 mm',
 
     // About page
     'about.label': 'Om meg',
@@ -167,14 +167,14 @@ const translations: Record<Language, Record<string, string>> = {
     'gallery.img9.title': 'Black Oat',
     'gallery.img9.subtitle': 'Avena strigosa',
     'gallery.img1.scale': 'Seed size: approx. 2–3 mm',
-    'gallery.img2.scale': 'Seed size: approx. 1 mm',
+    'gallery.img2.scale': 'Seed size: approx. 1.5 mm',
     'gallery.img3.scale': 'Seed size: approx. 2–3 mm',
     'gallery.img4.scale': 'Seed size: approx. 2–3 mm',
     'gallery.img5.scale': 'Seed size: approx. 2 mm',
     'gallery.img6.scale': 'Seed size: approx. 1–2 mm',
     'gallery.img7.scale': 'Seed size: approx. 3–4 mm',
     'gallery.img8.scale': 'Seed size: approx. 1–2 mm',
-    'gallery.img9.scale': 'Seed length: approx. 8–10 mm',
+    'gallery.img9.scale': 'Seed length: approx. 9 mm',
 
     // About page
     'about.label': 'About me',
