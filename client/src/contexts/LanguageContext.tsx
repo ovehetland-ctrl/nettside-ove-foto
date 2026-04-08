@@ -80,8 +80,8 @@ const translations: Record<Language, Record<string, string>> = {
     'about.p4': 'Bildene mine er kjøpt av private samlere i Norge og internasjonalt. Hvert trykk er signert og nummerert av meg.',
     'about.stat1.num': '50+',
     'about.stat1.label': 'Års erfaring',
-    'about.stat2.num': '7',
-    'about.stat2.label': 'Alder ved start',
+    'about.stat2.num': '10',
+    'about.stat2.label': 'Begynte å fotografere da jeg var 10 år gammel',
     'about.stat3.num': '∞',
     'about.stat3.label': 'Detaljer per bilde',
 
@@ -168,8 +168,8 @@ const translations: Record<Language, Record<string, string>> = {
     'about.p4': 'My works have been acquired by private collectors in Norway and internationally. Each print is personally signed and numbered by me.',
     'about.stat1.num': '50+',
     'about.stat1.label': 'Years of experience',
-    'about.stat2.num': '7',
-    'about.stat2.label': 'Age when I began',
+    'about.stat2.num': '10',
+    'about.stat2.label': 'Started photographing at the age of 10',
     'about.stat3.num': '∞',
     'about.stat3.label': 'Details per image',
 
