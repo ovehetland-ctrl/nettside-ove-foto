@@ -33,7 +33,7 @@ const GALLERY_IMAGES = [
     scaleKey: 'gallery.img4.scale',
   },
   {
-    src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775414981/best_fgyyvf.jpg',
+    src: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/k9G3EiRAAtsP9HKo2g57xn/markjordbaer_c7fc8b07.webp',
     titleKey: 'gallery.img5.title',
     subtitleKey: 'gallery.img5.subtitle',
     scaleKey: 'gallery.img5.scale',
