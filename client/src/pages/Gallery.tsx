@@ -33,7 +33,7 @@ const GALLERY_IMAGES = [
     scaleKey: 'gallery.img4.scale',
   },
   {
-    src: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/k9G3EiRAAtsP9HKo2g57xn/markjordbaer_c7fc8b07.webp',
+    src: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/k9G3EiRAAtsP9HKo2g57xn/markjordbaer2_3ef797cd.webp',
     titleKey: 'gallery.img5.title',
     subtitleKey: 'gallery.img5.subtitle',
     scaleKey: 'gallery.img5.scale',
@@ -164,7 +164,7 @@ export default function Gallery() {
                 alt={t(image.titleKey)}
                 style={{
                   width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center',
-                  filter: image.src.includes('markjordbaer') ? 'saturate(1.8) contrast(1.15)' : undefined,
+                  filter: undefined,
                 }}
                 loading={i === 0 ? 'eager' : 'lazy'}
               />
