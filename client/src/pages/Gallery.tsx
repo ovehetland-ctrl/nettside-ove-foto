@@ -12,46 +12,55 @@ const GALLERY_IMAGES = [
     src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775231930/2024-12-18-11.42.29_ZS_PMax_UDR-2-Edit_tshbhd.jpg',
     titleKey: 'gallery.img1.title',
     subtitleKey: 'gallery.img1.subtitle',
+    scaleKey: 'gallery.img1.scale',
   },
   {
     src: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/k9G3EiRAAtsP9HKo2g57xn/vassarve_e2e8e3dc.webp',
     titleKey: 'gallery.img2.title',
     subtitleKey: 'gallery.img2.subtitle',
+    scaleKey: 'gallery.img2.scale',
   },
   {
     src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775218878/fagerklokke_1_xdhhnk.jpg',
     titleKey: 'gallery.img3.title',
     subtitleKey: 'gallery.img3.subtitle',
+    scaleKey: 'gallery.img3.scale',
   },
   {
     src: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/mVQJLeLPN6ijFsQp9eE8pZ/prestekrage77_a5d1b07e.webp',
     titleKey: 'gallery.img4.title',
     subtitleKey: 'gallery.img4.subtitle',
+    scaleKey: 'gallery.img4.scale',
   },
   {
     src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775414981/best_fgyyvf.jpg',
     titleKey: 'gallery.img5.title',
     subtitleKey: 'gallery.img5.subtitle',
+    scaleKey: 'gallery.img5.scale',
   },
   {
     src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775414981/2025-01-14-10.24.16_ZS_PMax_UDR-Edit_ffvf8y.jpg',
     titleKey: 'gallery.img6.title',
     subtitleKey: 'gallery.img6.subtitle',
+    scaleKey: 'gallery.img6.scale',
   },
   {
     src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775414981/2025-05-23-12.12.14_ZS_PMax_UDR-Edit_evwfbb.jpg',
     titleKey: 'gallery.img7.title',
     subtitleKey: 'gallery.img7.subtitle',
+    scaleKey: 'gallery.img7.scale',
   },
   {
     src: 'https://res.cloudinary.com/dqdupx0zl/image/upload/v1775415637/best_av_best_bakgrunn9_i5z4ec.jpg',
     titleKey: 'gallery.img8.title',
     subtitleKey: 'gallery.img8.subtitle',
+    scaleKey: 'gallery.img8.scale',
   },
   {
     src: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499575388/k9G3EiRAAtsP9HKo2g57xn/rughavre_6d1e0076.webp',
     titleKey: 'gallery.img9.title',
     subtitleKey: 'gallery.img9.subtitle',
+    scaleKey: 'gallery.img9.scale',
   },
 ];
 
@@ -222,6 +231,11 @@ export default function Gallery() {
               <p style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 400, fontSize: '0.58rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#8c8880' }}>
                 {t(img.subtitleKey)}
               </p>
+              {img.scaleKey && t(img.scaleKey) !== img.scaleKey && (
+                <p style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 400, fontSize: '0.52rem', letterSpacing: '0.14em', color: '#5a5a58', marginTop: '6px' }}>
+                  {t(img.scaleKey)}
+                </p>
+              )}
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
