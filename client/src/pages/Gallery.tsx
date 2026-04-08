@@ -162,7 +162,10 @@ export default function Gallery() {
               <img
                 src={image.src}
                 alt={t(image.titleKey)}
-                style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center' }}
+                style={{
+                  width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center',
+                  filter: image.src.includes('markjordbaer') ? 'saturate(1.8) contrast(1.15)' : undefined,
+                }}
                 loading={i === 0 ? 'eager' : 'lazy'}
               />
             </div>
