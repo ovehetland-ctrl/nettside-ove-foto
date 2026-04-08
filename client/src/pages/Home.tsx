@@ -80,6 +80,8 @@ export default function Home() {
             transform: 'scale(0.72)',
             transformOrigin: 'center center',
             willChange: 'transform',
+            filter: 'contrast(1.08) saturate(1.05)',
+            imageRendering: 'crisp-edges',
           }}
           loading="eager"
         />
