@@ -85,7 +85,7 @@ export default function Home() {
           loading="eager"
         />
 
-        {/* Gradient overlay */}
+        {/* Gradient overlay — left fade + right fade to blend image into dark bg */}
         <div
           style={{
             position: 'absolute',
@@ -95,8 +95,26 @@ export default function Home() {
                 to right,
                 rgba(8,8,7,1.00) 0%,
                 rgba(8,8,7,0.85) 35%,
-                rgba(8,8,7,0.10) 55%,
-                rgba(8,8,7,0.00) 100%
+                rgba(8,8,7,0.05) 55%,
+                rgba(8,8,7,0.00) 70%,
+                rgba(8,8,7,0.60) 88%,
+                rgba(8,8,7,1.00) 100%
+              )
+            `,
+          }}
+        />
+        {/* Bottom fade to blend into page */}
+        <div
+          style={{
+            position: 'absolute',
+            inset: 0,
+            background: `
+              linear-gradient(
+                to bottom,
+                rgba(8,8,7,0.00) 0%,
+                rgba(8,8,7,0.00) 65%,
+                rgba(8,8,7,0.80) 88%,
+                rgba(8,8,7,1.00) 100%
               )
             `,
           }}
@@ -139,7 +157,7 @@ export default function Home() {
             style={{
               fontFamily: "'Cormorant Garamond', serif",
               fontWeight: 300,
-              fontSize: 'clamp(3.2rem, 8.5vw, 7.5rem)',
+              fontSize: 'clamp(2.4rem, 5.5vw, 5rem)',
               lineHeight: 0.95,
               color: '#f0ece4',
               letterSpacing: '-0.025em',
@@ -166,7 +184,7 @@ export default function Home() {
 
           <div className="text-fade-up text-fade-up-delay-4 flex flex-wrap gap-4">
             <Link href="/gallery">
-              <span className="btn-gold">{t('hero.cta.gallery')}</span>
+              <span className="btn-gold-filled">{t('hero.cta.gallery')}</span>
             </Link>
             <Link href="/contact">
               <span className="btn-ghost">{t('hero.cta.contact')}</span>

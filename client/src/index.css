@@ -303,6 +303,31 @@
     letter-spacing: 0.25em;
   }
 
+  /* Gold filled button (primary CTA) */
+  .btn-gold-filled {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.62rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #080807;
+    border: 1px solid #c9b99a;
+    padding: 0.9rem 2.2rem;
+    background: #c9b99a;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0;
+  }
+
+  .btn-gold-filled:hover {
+    background: #f0ece4;
+    border-color: #f0ece4;
+    color: #080807;
+    letter-spacing: 0.25em;
+  }
+
   /* Ghost button */
   .btn-ghost {
     font-family: 'Montserrat', sans-serif;
