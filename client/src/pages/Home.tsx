@@ -214,8 +214,8 @@ export default function Home() {
       {/* ─── GALLERY PREVIEW ──────────────────────────────────────────────── */}
       <section
         style={{
-          paddingTop: 'clamp(5rem, 10vh, 9rem)',
-          paddingBottom: 'clamp(5rem, 10vh, 9rem)',
+          paddingTop: 'clamp(2rem, 4vh, 3rem)',
+          paddingBottom: 'clamp(3rem, 6vh, 5rem)',
           paddingLeft: 'clamp(1.5rem, 6vw, 6rem)',
           paddingRight: 'clamp(1.5rem, 6vw, 6rem)',
         }}
