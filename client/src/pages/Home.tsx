@@ -46,7 +46,7 @@ export default function Home() {
     const handleScroll = () => {
       if (heroImgRef.current) {
         const y = window.scrollY;
-        heroImgRef.current.style.transform = `scale(1.06) translateY(${y * 0.1}px)`;
+        heroImgRef.current.style.transform = `translateY(${y * 0.05}px)`;
       }
     };
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -60,7 +60,7 @@ export default function Home() {
         style={{
           position: 'relative',
           width: '100vw',
-          height: '60svh',
+          height: '80svh',
           overflow: 'hidden',
         }}
       >
@@ -75,10 +75,8 @@ export default function Home() {
             inset: 0,
             width: '100%',
             height: '100%',
-            objectFit: 'cover',
+            objectFit: 'contain',
             objectPosition: 'center',
-            transform: 'scale(0.72)',
-            transformOrigin: 'center center',
             willChange: 'transform',
             filter: 'contrast(1.08) saturate(1.05)',
             imageRendering: 'crisp-edges',
