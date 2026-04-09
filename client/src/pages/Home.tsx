@@ -64,7 +64,7 @@ export default function Home() {
           overflow: 'hidden',
         }}
       >
-        {/* Background image */}
+        {/* Background image — right half */}
         <img
           ref={heroImgRef}
           src={HERO_IMAGE}
@@ -72,11 +72,12 @@ export default function Home() {
           className="hero-img-reveal"
           style={{
             position: 'absolute',
-            inset: 0,
-            width: '100%',
+            top: 0,
+            right: 0,
+            width: '55%',
             height: '100%',
             objectFit: 'contain',
-            objectPosition: 'center',
+            objectPosition: 'center right',
             willChange: 'transform',
             filter: 'contrast(1.08) saturate(1.05)',
             imageRendering: 'crisp-edges',
@@ -91,26 +92,31 @@ export default function Home() {
             inset: 0,
             background: `
               linear-gradient(
-                to bottom,
-                rgba(8,8,7,0.10) 0%,
-                rgba(8,8,7,0.00) 35%,
-                rgba(8,8,7,0.20) 70%,
-                rgba(8,8,7,0.75) 100%
+                to right,
+                rgba(8,8,7,1.00) 0%,
+                rgba(8,8,7,0.85) 35%,
+                rgba(8,8,7,0.10) 55%,
+                rgba(8,8,7,0.00) 100%
               )
             `,
           }}
         />
 
-        {/* Hero content — bottom left */}
+        {/* Hero content — left column, vertically centered */}
         <div
           style={{
             position: 'absolute',
+            top: 0,
             bottom: 0,
             left: 0,
-            right: 0,
+            width: '50%',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
             paddingLeft: 'clamp(1.5rem, 6vw, 6rem)',
-            paddingRight: 'clamp(1.5rem, 6vw, 6rem)',
-            paddingBottom: 'clamp(4rem, 8vh, 7rem)',
+            paddingRight: '2rem',
+            paddingBottom: 'clamp(2rem, 4vh, 4rem)',
+            paddingTop: 'clamp(2rem, 4vh, 4rem)',
           }}
         >
           <p
